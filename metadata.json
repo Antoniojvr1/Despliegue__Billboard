@@ -1,0 +1,14 @@
+{
+    "model_name": "Predictor de Éxito en Billboard",
+    "algorithm": "DecisionTreeClassifier",
+    "accuracy": 0.764,
+    "target_variable": "top",
+    "features": [
+        "artist_type",
+        "mood",
+        "tempo",
+        "genre",
+        "durationSeg"
+    ],
+    "description": "Modelo de árbol de decisión para predecir si una canción puede llegar al puesto número 1 de Billboard basado en sus características."
+}
