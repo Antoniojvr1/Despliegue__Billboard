@@ -74,7 +74,7 @@ def cargar_modelo():
 
 try:
     modelo, columnas_entrenamiento = cargar_modelo()
-    st.info("🤖 Inteligencia Artificial lista para predecir.")
+    st.info("Lista para predecir.")
 except Exception as e:
     st.error(f"Error al cargar los recursos de IA. Verifica si 'modelo_billboard.pkl' está en tu carpeta de trabajo. Detalles: {e}")
     st.stop()
