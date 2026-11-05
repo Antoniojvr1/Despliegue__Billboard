@@ -60,7 +60,7 @@ st.markdown("""
 
 # Cabecera de la aplicación
 st.markdown("<h1 class='title-text'>🎵 Billboard Top 1 Predictor</h1>", unsafe_allow_html=True)
-st.markdown("<p class='subtitle-text'>Desarrollado con Inteligencia Artificial por <b>Tu Nombre</b> ✨</p>", unsafe_allow_html=True)
+st.markdown("<p class='subtitle-text'>Desarrollado por <b> Antonio Vásquez 🙈 </b> ✨</p>", unsafe_allow_html=True)
 
 st.markdown("🌟 **¿Tienes una canción que suena a éxito masivo?** Ingresa sus características para evaluar su probabilidad de reinar en las listas más competitivas del planeta.")
 st.write("--- ")
